@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/specific-contact-forms",
+      "handler": "specific-contact-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/specific-contact-forms/count",
+      "handler": "specific-contact-form.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/specific-contact-forms/:id",
+      "handler": "specific-contact-form.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/specific-contact-forms",
+      "handler": "specific-contact-form.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/specific-contact-forms/:id",
+      "handler": "specific-contact-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/specific-contact-forms/:id",
+      "handler": "specific-contact-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

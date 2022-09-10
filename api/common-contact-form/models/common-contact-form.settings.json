@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "common_contact_forms",
+  "info": {
+    "name": "common_contact_form",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

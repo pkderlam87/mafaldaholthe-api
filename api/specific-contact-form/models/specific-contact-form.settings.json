@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specific_contact_forms",
+  "info": {
+    "name": "Specific_contact_form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "babyShower": {
+      "type": "boolean"
+    },
+    "birthday": {
+      "type": "boolean"
+    },
+    "genderReveal": {
+      "type": "boolean"
+    },
+    "wedding": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
