@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/enquiry-forms",
+      "handler": "enquiry-forms.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/enquiry-forms/count",
+      "handler": "enquiry-forms.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/enquiry-forms/:id",
+      "handler": "enquiry-forms.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/enquiry-forms",
+      "handler": "enquiry-forms.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/enquiry-forms/:id",
+      "handler": "enquiry-forms.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/enquiry-forms/:id",
+      "handler": "enquiry-forms.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

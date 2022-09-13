@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enquiry_forms",
+  "info": {
+    "name": "enquiry_forms"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "babyshower": {
+      "type": "boolean"
+    },
+    "birthday": {
+      "type": "boolean"
+    },
+    "genderreveal": {
+      "type": "boolean"
+    },
+    "wedding": {
+      "type": "boolean"
+    },
+    "otherevent": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
