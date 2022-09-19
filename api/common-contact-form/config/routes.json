@@ -33,6 +33,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/common-contact-forms/customContact",
+      "handler": "common-contact-form.customContact",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
       "path": "/common-contact-forms/:id",
       "handler": "common-contact-form.update",
