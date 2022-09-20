@@ -8,13 +8,13 @@
 module.exports = {
     async customContact(ctx) {
         await strapi.plugins['email'].services.email.send({
-            to: 'valid email address',
-            from: 'your verified email address', //e.g. single sender verification in SendGrid
-            cc: 'valid email address',
-            bcc: 'valid email address',
-            replyTo: 'valid email address',
+            to: 'pkderlam@hotmail.com',
+            from: 'pkderlam@hotmail.com', //e.g. single sender verification in SendGrid
+            cc: 'pkderlam@hotmail.com',
+            bcc: 'pkderlam@hotmail.com',
+            replyTo: `${result.email}`,
             subject: 'The Strapi Email plugin worked successfully',
-            text: 'Hello world!',
+            text: `${result.message}`,
             html: 'Hello world!',
         });
     }
